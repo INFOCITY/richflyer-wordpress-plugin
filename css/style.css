@@ -1,0 +1,30 @@
+.icon-align-right {
+    text-align: right;
+}
+
+.icon-align-left {
+    text-align: left;
+}
+
+.icon-align-center {
+    text-align: center;
+}
+
+button.bell-icon-btn {
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+button.bell-icon-btn:hover {
+    background-color: #eaeaea;
+    opacity: 0.8;
+}
+
+button.bell-icon-btn:active {
+    background-color: white;
+    transition: none;
+}

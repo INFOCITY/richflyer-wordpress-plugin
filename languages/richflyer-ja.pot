@@ -1,0 +1,69 @@
+# Copyright (C) 2023 INFOCITY, Inc.
+# This file is distributed under the same license as the RichFlyer plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: RichFlyer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/RichFlyerDevelopment_Wordpress\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-05-25T03:07:50+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.0-alpha-f653ba1\n"
+"X-Domain: richflyer\n"
+
+#. Plugin Name of the plugin
+#: richflyer_webpush_admin.php:97
+#: richflyer_webpush_admin.php:98
+msgid "RichFlyer"
+msgstr ""
+
+#. Description of the plugin
+msgid "You will be able to receive push notifications delivered through the RichFlyer service. The plugin is very easy to install."
+msgstr ""
+
+#. Author of the plugin
+msgid "INFOCITY, Inc."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://infocity.co.jp/"
+msgstr ""
+
+#: richflyer_webpush_admin.php:69
+msgid "RichFlyer Settings"
+msgstr ""
+
+#: richflyer_webpush_admin.php:71
+msgid "SDK Key"
+msgstr ""
+
+#: richflyer_webpush_admin.php:73
+msgid "Website Domain"
+msgstr ""
+
+#: richflyer_webpush_admin.php:75
+msgid "Website Push IDs ※Safari on macOS version 12 or lower"
+msgstr ""
+
+#: richflyer_webpush_admin.php:79
+msgid "Subscribe to push notifications when web pages are loaded."
+msgstr ""
+
+#: richflyer_webpush_admin.php:82
+msgid "※Effective in web browsers except Safari"
+msgstr ""
+
+#: richflyer_webpush_admin.php:86
+msgid "UPDATE"
+msgstr ""
+
+#: js/rfInitButtonBlock.js:14
+msgid "Subscription"
+msgstr ""
+
+#: js/rfInitButtonBlock.js:25
+msgid "Display a button to subscribe to push notifications.If you want to subscribe to push notifications in Safari, you must place a button."
+msgstr ""
