@@ -38,9 +38,14 @@ if (!class_exists('RichFlyer_Webpush_Admin')) {
 
             //各種値の保存
             if(array_key_exists("submit_initialize_value", $_POST)) {
-                update_option("rf_sdk_key", $_POST["sdk-key"]);
-                update_option("rf_website_domain", $_POST["domain"]);
-                update_option("rf_website_push_id", $_POST["website-push-id"]);
+                $sdkKey = sanitize_text_field($_POST["sdk-key"]);
+                $domain = sanitize_url($_POST["domain"]);
+                $websitePushId = sanitize_text_field($_POST["website-push-id"]);
+
+                update_option("rf_sdk_key", $sdkKey);
+                update_option("rf_website_domain", $domain);
+                update_option("rf_website_push_id", $websitePushId);
+                
                 if(isset($_POST["init-open-window"])) {
                 update_option("rf_auto_init", 1);
                 } else {

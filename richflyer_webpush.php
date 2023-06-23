@@ -7,7 +7,7 @@
  * Text Domain:  richflyer
  * Domain Path: /languages
  * 
- * Version:      1.0.0
+ * Version:      1.0.1
  */
 
  defined( 'ABSPATH' ) || exit;

@@ -15,7 +15,7 @@ if (!class_exists('RichFlyer_Webpush_Public')) {
 
         //ボタンに使用するロゴの読み込み
         public static function import_richflyer_logo() {
-            $richflyer_logo_path = plugins_url("img/bell.png", __FILE__);
+            $richflyer_logo_path = plugins_url("img/richflyer_logo.png", __FILE__);
             ?>
             <script>
                 const richflyerLogoPath = '<?php echo $richflyer_logo_path ?>';
@@ -29,9 +29,9 @@ if (!class_exists('RichFlyer_Webpush_Public')) {
             wp_enqueue_style('icon_style', plugins_url('css/style.css', __FILE__));
         }
 
-        //サーバからのスクリプト読み込み
+        //スクリプトの読み込み
         public static function import_remote_scripts() {
-            wp_enqueue_script("remote_script", "https://wp-content.richflyer.net/rf-functions.js");
+            wp_enqueue_script("remote_script", plugins_url("js/rf-functions.js", __FILE__));
         }
 
         //init処理に関するスクリプトの読み込み
@@ -44,11 +44,11 @@ if (!class_exists('RichFlyer_Webpush_Public')) {
           
             ?>
             <script>
-                const sdkKey = '<?php echo $sdk_key ?>';
-                const domain = '<?php echo $website_domain ?>';
-                const websitePushId = '<?php echo $website_push_id ?>';
-                const autoInit = '<?php echo $auto_init ?>';
-                const serviceworkerPath = '<?php echo $serviceworker_path ?>';
+                const sdkKey = '<?php echo esc_js($sdk_key); ?>';
+                const domain = '<?php echo esc_js($website_domain); ?>';
+                const websitePushId = '<?php echo esc_js($website_push_id); ?>';
+                const autoInit = '<?php echo esc_js($auto_init); ?>';
+                const serviceworkerPath = '<?php echo esc_js($serviceworker_path); ?>';
             
                 window.rfSetting = {};
                 window.rfSetting.rfSdkKey = sdkKey;
