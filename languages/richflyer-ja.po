@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: RichFlyer 1.0.0\n"
+"Project-Id-Version: RichFlyer 1.0.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/"
 "RichFlyerDevelopment_Wordpress\n"
 "POT-Creation-Date: 2023-05-25T03:07:50+00:00\n"
-"PO-Revision-Date: 2023-05-25 12:08+0900\n"
+"PO-Revision-Date: 2023-07-24 18:52+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -16,6 +16,7 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: richflyer_webpush_admin.php:97 richflyer_webpush_admin.php:98
+#: js/rfInitButtonBlock.js:164
 msgid "RichFlyer"
 msgstr "RichFlyer"
 
@@ -74,6 +75,22 @@ msgid ""
 msgstr ""
 "プッシュ通知を購読するためのボタンを表示します。Safariでプッシュ通知を購読す"
 "る場合は、ボタンを配置する必要があります。"
+
+#: js/rfInitButtonBlock.js:106
+msgid "Button Size"
+msgstr "ボタンサイズ"
+
+#: js/rfInitButtonBlock.js:119
+msgid "Button Icon"
+msgstr "ボタンアイコン"
+
+#: js/rfInitButtonBlock.js:129
+msgid "Bell(color)"
+msgstr "ベル（カラー）"
+
+#: js/rfInitButtonBlock.js:146
+msgid "Bell(mono)"
+msgstr "ベル（モノクロ）"
 
 #~ msgid ""
 #~ "This plugin is intended to make it easy to use RichFlyer services with "

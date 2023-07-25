@@ -15,7 +15,7 @@ if (!class_exists('RichFlyer_Webpush_Public')) {
 
         //ボタンに使用するロゴの読み込み
         public static function import_richflyer_logo() {
-            $richflyer_logo_path = plugins_url("img/richflyer_logo.png", __FILE__);
+            $richflyer_logo_path = plugins_url("img", __FILE__);
             ?>
             <script>
                 const richflyerLogoPath = '<?php echo $richflyer_logo_path ?>';
